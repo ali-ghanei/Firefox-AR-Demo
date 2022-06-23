@@ -1,5 +1,5 @@
 <?php
-	header('Content-Disposition: attachment; filename=test_ar_file.usdz');
+	header('Content-Disposition: attachment; filename=sample.usdz');
 	header('Content-type: model/vnd.usdz+zip');
-	$fn = fopen("test_ar_file.usdz","r");
+	$fn = fopen("sample.usdz","r");
 	fpassthru($fn);
