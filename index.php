@@ -21,7 +21,7 @@
 	</head>
 	<body>
 		<a class="preview" rel="ar" href="serveArFile.php">
-		  <img src="preview.png">
+		  <img src="preview.png" />
 		</a>
 	</body>
 </html>
